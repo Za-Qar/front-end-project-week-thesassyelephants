@@ -1,70 +1,33 @@
-# Project Week Front-End
+# Mentor Matcher for prorammers - React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was done in a group of 5 over a span of 4 days. We were teasked with creating a platform were mentors and mentees can visit, submit a form and get matched with with oneanother based on specific critereon. The critereon inlcude the skills the mentee wants to inherit for their future plans and also a miers briggs personality type. Essentially we wanted mentros and mentees to have compatible personality types after reading a scietific article that this way the leanring is enhanced. [View project]( https://mentor-matcher.netlify.app).
 
-## Available Scripts
+We used Auth0 for authentication and their emails were used for verification. Once the mentor or mentee fill out their respective form, they can then go to the "Find your match" page and either get all data, whcih matches based on skill, or input their 4 letter miers briggs result that is linked in the form they already submitted and get data based on personality types.
 
-In the project directory, you can run:
+## Built with
 
-### `npm start`
+* React
+* CSS
+* JSX
+* Auth0
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![alt text](https://i.imgur.com/OOyrPUV.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## View the app
 
-### `npm test`
+You can either click on the "view project" hyperlink above or 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* clone down the repository
+### `git clone https://github.com/Za-Qar/mentor-matcher-front-end-React`
 
-### `npm run build`
+* install all the dependencies needed
+### `npm i`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* start the app
+### `npm run start`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contact method
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Please don't hesitate in contacting me if you have any questions or need any assistance as I want to hear from you
+[Contact email](mailto:za.qa@outlook.com?subject=[GitHub]%20Mentor%20Matcher)
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

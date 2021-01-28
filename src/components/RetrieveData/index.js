@@ -11,7 +11,7 @@ function RetrieveData() {
   const [formData2, setFormData2] = useState([]);
 
   async function getAllData() {
-    const res = await fetch("http://www.localhost:5000/mentor");
+    const res = await fetch("https://sassyelephants.herokuapp.com/mentor");
     const data = await res.json();
     console.log(data);
     let payload = data.payload;
@@ -20,7 +20,7 @@ function RetrieveData() {
   }
 
   async function getAllDataMentee() {
-    const res = await fetch("http://www.localhost:5000/mentee");
+    const res = await fetch("https://sassyelephants.herokuapp.com/mentee");
     const data = await res.json();
     console.log(data);
     let payload = data.payload;
@@ -34,7 +34,7 @@ function RetrieveData() {
   // async function to get user input value, hand the value to the api and recieve the myersbriggs matches
   async function matchMB(text) {
     const res = await fetch(
-      `http://www.localhost:5000/bootcamperMatch?myersBriggs=${text}`
+      `https://sassyelephants.herokuapp.com/bootcamperMatch?myersBriggs=${text}`
     );
     console.log(text);
     const data = await res.json();

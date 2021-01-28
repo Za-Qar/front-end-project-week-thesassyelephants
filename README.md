@@ -18,7 +18,7 @@ We used Auth0 for authentication and their emails were used for verification. On
 You can either click on the "view project" hyperlink above or 
 
 * clone down the repository
-### `git clone https://github.com/Za-Qar/mentor-matcher-front-end-React`
+### `git clone https://github.com/Za-Qar/mentor_matcher-frontend_React.git`
 
 * install all the dependencies needed
 ### `npm i`
